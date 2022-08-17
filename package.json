@@ -1,0 +1,32 @@
+{
+  "name": "ansible-functions",
+  "version": "0.1.0",
+  "description": "Ansible functions",
+  "keywords": [
+    "ansible",
+    "template"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/ansible-functions/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "bin": {
+    "ansible-functions": "bin/ansible-functions"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "yaroslav-korotaev/ansible-functions",
+  "scripts": {},
+  "dependencies": {
+    "@cspotcode/source-map-support": "^0.8.1",
+    "hurp-app": "^0.1.0",
+    "yaml": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "typescript": "^4.7.4"
+  }
+}

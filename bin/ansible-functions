@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require('@cspotcode/source-map-support/register');
+require('../dist/bin/cli.js');
